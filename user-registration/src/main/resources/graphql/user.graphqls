@@ -1,13 +1,13 @@
 type User {
     id: ID
-    name: String
+    firstName: String
     lastName: String
     email: String
     enable: Boolean
 }
 
 input UserInput {
-    name: String
+    firstName: String
     lastName: String
     password: String
     email: String
